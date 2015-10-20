@@ -25,7 +25,6 @@ an ADDRESS to some memory, therefore
 `&(x)` means the address of `x`.
 	
 # Line by line explanation of main.c
-## (also included in the comments)
 
 Create a constant int `a` and set it to 12
 

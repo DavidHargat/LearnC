@@ -20,7 +20,7 @@ therefore `*(x)` means "memory at the address x".
 In C, we also have the symbol `&`.
 
 It's much like the opposite of `*` because
-instead of getting some memory we`re getting
+instead of getting some memory we're getting
 an ADDRESS to some memory, therefore
 `&(x)` means the address of `x`.
 	

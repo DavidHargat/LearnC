@@ -15,7 +15,7 @@ A POINTER is an address to some memory.
 
 In C, the symbol `*` DEREFERENCES a pointer,
 this means it gets whatever memory is stored at that pointer;
-therefore `*(x)` means "memory at the address x".
+therefore `*(x)` means memory at the address `x`.
 
 In C, we also have the symbol `&`.
 

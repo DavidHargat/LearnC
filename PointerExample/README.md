@@ -13,12 +13,13 @@ Compile it and see the magic of pointers.
 
 A POINTER is an address to some memory.
 
-In C, the symbol `*` DEREFERENCES a pointer
-this means it gets whatever memory is stored at that pointer,
+In C, the symbol `*` DEREFERENCES a pointer,
+this means it gets whatever memory is stored at that pointer;
 therefore `*(x)` means "memory at the address x".
 
-In C, we also have the symbol `&`
-it`s much like the opposite of `*` because
+In C, we also have the symbol `&`.
+
+It's much like the opposite of `*` because
 instead of getting some memory we`re getting
 an ADDRESS to some memory, therefore
 `&(x)` means the address of `x`.

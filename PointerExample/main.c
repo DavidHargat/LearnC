@@ -38,8 +38,8 @@ int main(int argc , char **argv)
 	printf( "*ptr == %d \n", *ptr); // the memory at 'ptr' is 12
 	printf( "&a   == %p \n", &a); // prints the address of 'a' (in hex form)
 
-	// The memory at the address 'ptr' is the same as the memory at the address of 'a'
-	printf( "*ptr == &a \n\n"); 
+	// The memory at the address 'ptr' is the same as 'a'
+	printf( "*ptr == a \n\n"); 
 
 	// The index 'i' of 'ptr' is the memory at ('ptr'+i).
 	// In other words:

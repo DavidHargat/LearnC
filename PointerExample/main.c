@@ -59,7 +59,7 @@ int main(int argc , char **argv)
 	printf( "0[ptr] == *ptr \n");
 	printf( "0[ptr] == %d \n\n", 0[ptr]);
 
-	// Since '*' and '&' you can use them together to cancel eachother out
+	// Since '*' and '&' are essentially opposites you can use them together to cancel eachother out
 	// For example:
 	printf( "*&a    == %d \n",*&a);
 	printf( "*&a    == a \n\n");
